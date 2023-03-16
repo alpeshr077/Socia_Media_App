@@ -21,6 +21,7 @@ public class Activity8 extends AppCompatActivity {
 
         ImgWA8 = findViewById(R.id.ImgWA8);
 
+
         WebSettings settings2 = ImgWA8.getSettings();
         settings2.setJavaScriptEnabled(true);
         settings2.setSupportZoom(true);
