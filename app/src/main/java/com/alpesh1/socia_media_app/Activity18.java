@@ -7,24 +7,24 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class Activity8 extends AppCompatActivity {
+public class Activity18 extends AppCompatActivity {
 
-    WebView ImgWA8;
+    WebView ImgWA18;
 
-    String Url = "https://in.pinterest.com/";
+    String Url = "https://www.yallagroup.com/#/home";
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_8);
+        setContentView(R.layout.activity_18);
 
-        ImgWA8 = findViewById(R.id.ImgWA8);
+        ImgWA18 = findViewById(R.id.ImgWA18);
 
-        WebSettings settings2 = ImgWA8.getSettings();
+        WebSettings settings2 = ImgWA18.getSettings();
         settings2.setJavaScriptEnabled(true);
         settings2.setSupportZoom(true);
 
-        ImgWA8.loadUrl(Url);
+        ImgWA18.loadUrl(Url);
     }
 }

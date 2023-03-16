@@ -103,84 +103,84 @@ public class MainActivity extends AppCompatActivity {
         WA9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity9.class);
                 startActivity(intent);
             }
         });
         WA10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity10.class);
                 startActivity(intent);
             }
         });
         WA11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity11.class);
                 startActivity(intent);
             }
         });
         WA12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity12.class);
                 startActivity(intent);
             }
         });
         WA13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity13.class);
                 startActivity(intent);
             }
         });
         WA14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity14.class);
                 startActivity(intent);
             }
         });
         WA15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity15.class);
                 startActivity(intent);
             }
         });
         WA16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity16.class);
                 startActivity(intent);
             }
         });
         WA17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity17.class);
                 startActivity(intent);
             }
         });
         WA18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity18.class);
                 startActivity(intent);
             }
         });
         WA19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity19.class);
                 startActivity(intent);
             }
         });
         WA20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Activity4.class);
+                Intent intent = new Intent(MainActivity.this,Activity20.class);
                 startActivity(intent);
             }
         });

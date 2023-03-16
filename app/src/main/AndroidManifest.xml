@@ -14,6 +14,42 @@
         android:theme="@style/Theme.Socia_Media_App"
         tools:targetApi="31">
         <activity
+            android:name=".Activity20"
+            android:exported="false" />
+        <activity
+            android:name=".Activity19"
+            android:exported="false" />
+        <activity
+            android:name=".Activity18"
+            android:exported="false" />
+        <activity
+            android:name=".Activity17"
+            android:exported="false" />
+        <activity
+            android:name=".Activity16"
+            android:exported="false" />
+        <activity
+            android:name=".Activity15"
+            android:exported="false" />
+        <activity
+            android:name=".Activity14"
+            android:exported="false" />
+        <activity
+            android:name=".Activity13"
+            android:exported="false" />
+        <activity
+            android:name=".Activity12"
+            android:exported="false" />
+        <activity
+            android:name=".Activity11"
+            android:exported="false" />
+        <activity
+            android:name=".Activity10"
+            android:exported="false" />
+        <activity
+            android:name=".Activity9"
+            android:exported="false" />
+        <activity
             android:name=".Activity8"
             android:exported="false" />
         <activity

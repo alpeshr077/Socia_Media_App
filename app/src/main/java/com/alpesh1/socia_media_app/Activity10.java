@@ -2,29 +2,27 @@ package com.alpesh1.socia_media_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class Activity8 extends AppCompatActivity {
+public class Activity10 extends AppCompatActivity {
 
-    WebView ImgWA8;
+    WebView ImgWA10;
 
-    String Url = "https://in.pinterest.com/";
+    String Url = "https://www.reddit.com/";
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_8);
+        setContentView(R.layout.activity_10);
 
-        ImgWA8 = findViewById(R.id.ImgWA8);
+        ImgWA10 = findViewById(R.id.ImgWA10);
 
-        WebSettings settings2 = ImgWA8.getSettings();
+        WebSettings settings2 = ImgWA10.getSettings();
         settings2.setJavaScriptEnabled(true);
         settings2.setSupportZoom(true);
 
-        ImgWA8.loadUrl(Url);
+        ImgWA10.loadUrl(Url);
     }
 }

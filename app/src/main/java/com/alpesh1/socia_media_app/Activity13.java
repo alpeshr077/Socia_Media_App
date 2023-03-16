@@ -7,24 +7,24 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class Activity8 extends AppCompatActivity {
+public class Activity13 extends AppCompatActivity {
 
-    WebView ImgWA8;
+    WebView ImgWA13;
 
-    String Url = "https://in.pinterest.com/";
+    String Url = "https://www.fanbase.app/";
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_8);
+        setContentView(R.layout.activity_13);
 
-        ImgWA8 = findViewById(R.id.ImgWA8);
+        ImgWA13 = findViewById(R.id.ImgWA13);
 
-        WebSettings settings2 = ImgWA8.getSettings();
+        WebSettings settings2 = ImgWA13.getSettings();
         settings2.setJavaScriptEnabled(true);
         settings2.setSupportZoom(true);
 
-        ImgWA8.loadUrl(Url);
+        ImgWA13.loadUrl(Url);
     }
 }

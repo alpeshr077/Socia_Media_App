@@ -7,24 +7,24 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class Activity8 extends AppCompatActivity {
+public class Activity15 extends AppCompatActivity {
 
-    WebView ImgWA8;
+    WebView ImgWA15;
 
-    String Url = "https://in.pinterest.com/";
+    String Url = "https://appmagic.rocks/google-play/noizz-video-editor-with-music/com.yy.biu/info";
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_8);
+        setContentView(R.layout.activity_15);
 
-        ImgWA8 = findViewById(R.id.ImgWA8);
+        ImgWA15 = findViewById(R.id.ImgWA15);
 
-        WebSettings settings2 = ImgWA8.getSettings();
+        WebSettings settings2 = ImgWA15.getSettings();
         settings2.setJavaScriptEnabled(true);
         settings2.setSupportZoom(true);
 
-        ImgWA8.loadUrl(Url);
+        ImgWA15.loadUrl(Url);
     }
 }

@@ -7,24 +7,24 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class Activity8 extends AppCompatActivity {
+public class Activity14 extends AppCompatActivity {
 
-    WebView ImgWA8;
+    WebView ImgWA14;
 
-    String Url = "https://in.pinterest.com/";
+    String Url = "https://web.telegram.org/";
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_8);
+        setContentView(R.layout.activity_14);
 
-        ImgWA8 = findViewById(R.id.ImgWA8);
+        ImgWA14 = findViewById(R.id.ImgWA14);
 
-        WebSettings settings2 = ImgWA8.getSettings();
+        WebSettings settings2 = ImgWA14.getSettings();
         settings2.setJavaScriptEnabled(true);
         settings2.setSupportZoom(true);
 
-        ImgWA8.loadUrl(Url);
+        ImgWA14.loadUrl(Url);
     }
 }

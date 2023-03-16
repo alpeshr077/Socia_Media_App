@@ -7,24 +7,24 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class Activity8 extends AppCompatActivity {
+public class Activity19 extends AppCompatActivity {
 
-    WebView ImgWA8;
+    WebView ImgWa19;
 
-    String Url = "https://in.pinterest.com/";
+    String Url = "https://tiki.video/?lang=en";
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_8);
+        setContentView(R.layout.activity_19);
 
-        ImgWA8 = findViewById(R.id.ImgWA8);
+        ImgWa19 = findViewById(R.id.ImgWA19);
 
-        WebSettings settings2 = ImgWA8.getSettings();
+        WebSettings settings2 = ImgWa19.getSettings();
         settings2.setJavaScriptEnabled(true);
         settings2.setSupportZoom(true);
 
-        ImgWA8.loadUrl(Url);
+        ImgWa19.loadUrl(Url);
     }
 }

@@ -4,27 +4,28 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.webkit.WebBackForwardList;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class Activity8 extends AppCompatActivity {
+public class Activity12 extends AppCompatActivity {
 
-    WebView ImgWA8;
+    WebView ImgWA12;
 
-    String Url = "https://in.pinterest.com/";
+    String Url = "https://m.ok.ru/kuz.vasil?current.locale=en";
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_8);
+        setContentView(R.layout.activity_12);
 
-        ImgWA8 = findViewById(R.id.ImgWA8);
+        ImgWA12 = findViewById(R.id.ImgWA12);
 
-        WebSettings settings2 = ImgWA8.getSettings();
+        WebSettings settings2 = ImgWA12.getSettings();
         settings2.setJavaScriptEnabled(true);
         settings2.setSupportZoom(true);
 
-        ImgWA8.loadUrl(Url);
+        ImgWA12.loadUrl(Url);
     }
 }

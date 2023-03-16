@@ -7,24 +7,24 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class Activity8 extends AppCompatActivity {
+public class Activity17 extends AppCompatActivity {
 
-    WebView ImgWA8;
+    WebView ImgWA17;
 
-    String Url = "https://in.pinterest.com/";
+    String Url = "https://open.spotify.com/";
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_8);
+        setContentView(R.layout.activity_17);
 
-        ImgWA8 = findViewById(R.id.ImgWA8);
+        ImgWA17 = findViewById(R.id.ImgWA17);
 
-        WebSettings settings2 = ImgWA8.getSettings();
+        WebSettings settings2 = ImgWA17.getSettings();
         settings2.setJavaScriptEnabled(true);
         settings2.setSupportZoom(true);
 
-        ImgWA8.loadUrl(Url);
+        ImgWA17.loadUrl(Url);
     }
 }
